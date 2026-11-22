@@ -295,7 +295,7 @@ const TOTAL_SCENES = 8;
     "The comfort of our late-night chats & quiet moments 🌙",
     "How you remember tiny details I forgot I even said 🌸",
     "Your soft heart & how effortlessly you make me smile 💖",
-    "Because in a world full of noise, you are my home, Hayati 🌹"
+    "Because in a world full of noise, you are my home, Bhonduu 🌹"
   ];
   const balloonAimAngles = [-36, -18, 0, 18, 36];
   let currentBalloonIdx = 0;
@@ -763,7 +763,7 @@ const TOTAL_SCENES = 8;
         .fromTo('#scene-open .top-pill', { y: -50, opacity: 0 }, { y: 0, opacity: 1, duration: 0.7, ease: 'back.out(1.5)' })
         .fromTo('#scene-open .heart-3d', { scale: 0, opacity: 0, rotate: -20 }, { scale: 1, opacity: 1, rotate: 0, duration: 0.9, ease: 'elastic.out(1.2, 0.4)' }, '-=0.3');
     } else if (n === 3) {
-      // Scene 3: Happy Birthday Hayati Burst (MAJOR KINETIC SHOWCASE)
+      // Scene 3: Happy Birthday Bhonduu Burst (MAJOR KINETIC SHOWCASE)
       initConfetti();
       gsap.timeline()
         .fromTo('.hb-main', 
